@@ -1,6 +1,12 @@
+import { LandingHero } from "@/components/LandingHero";
+import { LandingNavbar } from "@/components/LandingNavbar";
+
 const LandingPage = () => {
     return(
-        <div>Landing page(unprotected)</div>
+        <div className="h-full">
+            <LandingNavbar />
+            <LandingHero />
+        </div>
     );
 
 }
